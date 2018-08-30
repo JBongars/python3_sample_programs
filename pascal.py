@@ -31,7 +31,3 @@ def factorial(a):
 def combinations(n, r):
     return int(factorial(n) / (factorial(r) * factorial(n - r)))
 
-
-print(combinations(7, 4)) # expected: 35
-print(combinations(6, 5)) # expected: 6
-print(combinations(12, 6)) # expected: 924

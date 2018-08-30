@@ -5,11 +5,13 @@ from time import sleep
 from pascal import go as pascal
 from mastermind import go as mastermind
 from thueMorse import go as thueMorse
+from randomWalk import go as randomWalk
 
 options = {
     'pascal': pascal,
     'mastermind': mastermind,
-    'thueMorse': thueMorse
+    'thueMorse': thueMorse,
+    'randomWalk': randomWalk
 }
 
 while True:
