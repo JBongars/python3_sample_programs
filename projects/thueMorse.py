@@ -17,9 +17,10 @@ def thue(count):
 
     while len(sequence) < count:
         invertedSequence = invertArray(sequence)
-        print(''.join([str(a) for a in invertedSequence]), end='')
-        sequence += invertedSequence
-    print("")
+        sequence = sequence + invertedSequence
+    
+    print(''.join([str(a) for a in sequence]), end='')
+    print('')
     return sequence
 
 def invertArray(myArray):
@@ -28,3 +29,6 @@ def invertArray(myArray):
         result[i] = int(not(myArray[i]))
     
     return result
+
+print("started!")
+thue(10000)
