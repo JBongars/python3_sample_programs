@@ -2,10 +2,10 @@
 from clear import clear
 from time import sleep
 
-from pascal import go as pascal
-from mastermind import go as mastermind
-from thueMorse import go as thueMorse
-from randomWalk import go as randomWalk
+from projects.pascal import go as pascal
+from projects.mastermind import go as mastermind
+from projects.thueMorse import go as thueMorse
+from projects.randomWalk import go as randomWalk
 
 options = {
     'pascal': pascal,
